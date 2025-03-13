@@ -1,1 +1,79 @@
 /*Ini File CSS*/
+/* Ini file css */
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-logo {
+  height: 50px;
+  width: 50px;
+  background-image: url(https://picsum.photos/200);
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+nav {
+  display: flex;
+}
+
+nav > a {
+  padding: 8px;
+  border: 1px solid;
+  text-decoration: none;
+  color: black;
+}
+
+.banner-img {
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+
+.banner-1 {
+  /* Local Image */
+  background-image: url(../assets/1.jpg);
+}
+
+.banner-2 {
+  background-image: url(https://picsum.photos/350);
+}
+
+.banner-3 {
+  background-image: url(https://picsum.photos/375);
+}
+
+.our-profile-content {
+  border: 1px solid;
+  height: 500px;
+  align-content: center;
+  text-align: center;
+}
+
+.achievement-content {
+  border: 1px solid;
+  height: 500px;
+  align-content: center;
+  text-align: center;
+}
+
+.message-us-content {
+  border: 1px solid;
+  height: 500px;
+  align-content: center;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
+/* Responsive */
+@media only screen and (max-width: 480px) {
+  .main-header {
+    flex-direction: column;
+  }
+}
